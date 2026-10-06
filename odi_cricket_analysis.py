@@ -20,7 +20,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+DATA = ROOT
 OUTPUT = ROOT / "outputs"
 OUTPUT.mkdir(exist_ok=True)
 
