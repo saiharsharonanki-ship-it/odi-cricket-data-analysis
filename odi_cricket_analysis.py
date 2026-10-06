@@ -5,10 +5,10 @@ Run this script from the project root:
     python odi_cricket_analysis.py
 
 Expected data files:
-    data/odi_Matches_Data.csv
-    data/odi_Batting_Card.csv
-    data/odi_Bowling_Card.csv
-    data/players_info.csv
+    odi_Matches_Data.csv
+    odi_Batting_Card.csv
+    odi_Bowling_Card.csv
+    players_info.csv
 
 The script creates analysis outputs in:
     outputs/
