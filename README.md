@@ -19,7 +19,7 @@ The dataset contains six CSV files covering match results, batting cards, bowlin
 
 Source: Kaggle — **ODI Cricket Matches Dataset (1971–2024)**.
 
-The downloaded dataset contains:
+The downloaded dataset contains the following CSV files, which are placed in the project root directory:
 
 - `odi_Matches_Data.csv` — match-level information
 - `odi_Batting_Card.csv` — batting performance
@@ -59,13 +59,12 @@ The analysis follows these steps:
 
 ```text
 odi-cricket-analysis/
-├── data/
-│   ├── odi_Batting_Card.csv
-│   ├── odi_Bowling_Card.csv
-│   ├── odi_Fow_Card.csv
-│   ├── odi_Matches_Data.csv
-│   ├── odi_Partnership_Card.csv
-│   └── players_info.csv
+├── odi_Batting_Card.csv
+├── odi_Bowling_Card.csv
+├── odi_Fow_Card.csv
+├── odi_Matches_Data.csv
+├── odi_Partnership_Card.csv
+├── players_info.csv
 ├── outputs/
 ├── odi_cricket_analysis.py
 ├── requirements.txt
